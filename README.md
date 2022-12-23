@@ -11,9 +11,9 @@ If it's in the same dir, just use its name.
  - The name of a recently created Game profile on steelseries GG to be overwritten.
 
 e.g 
-
+```sh
 python script.py "Audeze LCD-3 ParametricEQ.txt" "Configuration 1"
-
+```
 The script should be placed in the same directory as the "database.db" file that steelseries *SONAR* uses, which is located (by default) at "C:\ProgramData\SteelSeries\GG\apps\sonar\db\"
 
 The above example has the default "new config" name, and the eq file in the same directory as the database and script.
