@@ -6,7 +6,9 @@ import sys, os, shutil, sqlite3, json, time
 
 typedict = {
     "LS":"lowShelving",
+    "LSC":"lowShelving",
     "HS":"highShelving",
+    "HSC":"highShelving",
     "PK":"peakingEQ",
     "LP":"lowPass",
     "HP":"highPass",
@@ -96,7 +98,7 @@ def get_file_data(filename):
         if file_check != None:
             return file_check
         else:
-            print(f"The file {filename} could not be interpeted properly")
+            print(f"The file {filename} could not be interpreted properly")
             os._exit(1)
          
     except FileNotFoundError:
