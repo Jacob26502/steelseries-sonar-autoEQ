@@ -19,4 +19,5 @@ The script should be placed in the same directory as the "database.db" file that
 The above example has the default "new config" name, and the eq file in the same directory as the database and script.
 
 
-Warning: was designed to be used on version 36.0.0, and has not been tested on later versions. I am not responsible if it breaks your Steelseries GG app. The script does make a backup before running just in case but don't trust it
+Warning: was designed to be used on version 36.0.0, and has not been tested on later versions. I am not responsible if it breaks your Steelseries GG app. The script does make a backup before running just in case but don't trust it.
+UPDATE: Tested still working 83.1.0
