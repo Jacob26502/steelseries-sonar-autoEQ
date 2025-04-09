@@ -20,4 +20,5 @@ The above example has the default "new config" name, and the eq file in the same
 
 
 Warning: was designed to be used on version 36.0.0, and has not been tested on later versions. I am not responsible if it breaks your Steelseries GG app. The script does make a backup before running just in case but don't trust it.
-UPDATE: Tested still working 83.1.0
+
+*UPDATE: Tested still working 83.1.0
